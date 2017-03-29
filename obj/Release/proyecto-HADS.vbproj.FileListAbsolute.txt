@@ -1,0 +1,12 @@
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\proyecto-HADS.dll
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\proyecto-HADS.pdb
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\proyecto-HADS.xml
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\AccesoBD.dll
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\AccesoBD.pdb
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\AccesoBD.xml
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto_HADS.Resources.resources
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto-HADS.vbproj.GenerateResource.Cache
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto-HADS.dll
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto-HADS.xml
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto-HADS.pdb
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto-HADS.vbprojResolveAssemblyReference.cache
