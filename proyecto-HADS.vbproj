@@ -42,7 +42,11 @@
   <ItemGroup>
     <Reference Include="AccesoBD, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\AccesoBD\AccesoBD\bin\Debug\AccesoBD.dll</HintPath>
+      <HintPath>..\..\AccesoBD\AccesoBD\obj\Debug\AccesoBD.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxControlToolkit, Version=16.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -90,6 +94,7 @@
     <Content Include="alumnos\TareasAlumno.aspx" />
     <Content Include="CambiarContrasena.aspx" />
     <Content Include="Confirmar.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="profesores\APP_DATA\HAS.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -101,6 +106,7 @@
     <Content Include="profesores\ExportarTareas.aspx" />
     <Content Include="profesores\ImportarTareas.aspx" />
     <Content Include="profesores\profesor.aspx" />
+    <Content Include="profesores\TareasProfesor.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -142,6 +148,9 @@
     <Compile Include="Confirmar.aspx.vb">
       <DependentUpon>Confirmar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -189,6 +198,13 @@
     <Compile Include="Inicio.aspx.vb">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="profesores\TareasProfesor.aspx.designer.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="profesores\TareasProfesor.aspx.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Registro.aspx.designer.vb">
       <DependentUpon>Registro.aspx</DependentUpon>
@@ -247,6 +263,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

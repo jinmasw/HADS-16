@@ -18,14 +18,23 @@
         If (cuantos = 1) Then
             System.Web.Security.FormsAuthentication.RedirectFromLoginPage("alumno", False)
             Session("username") = correoBox.Text
-            Response.Redirect("alumnos/Alumno.aspx") 
+            Dim listaA As ListBox = Application("listaAlumnos")
+            listaA.Items.Add(correoBox.Text)
+            Application("listaAlumnos") = listaA
+            Response.Redirect("alumnos/Alumno.aspx")
         ElseIf (cuantos2 = 1) Then
             If (correoBox.Text = "vadillo@ehu.es") Then
                 Session("username") = correoBox.Text
+                Dim listaP As ListBox = Application("listaProfes")
+                listaP.Items.Add(correoBox.Text)
+                Application("listaProfes") = listaP
                 System.Web.Security.FormsAuthentication.RedirectFromLoginPage("vadillo", False)
                 Response.Redirect("profesores/Profesor.aspx")
             Else
                 Session("username") = correoBox.Text
+                Dim listaP As ListBox = Application("listaProfes")
+                listaP.Items.Add(correoBox.Text)
+                Application("listaProfes") = listaP
                 System.Web.Security.FormsAuthentication.RedirectFromLoginPage("profesor", False)
                 Response.Redirect("profesores/Profesor.aspx")
             End If
