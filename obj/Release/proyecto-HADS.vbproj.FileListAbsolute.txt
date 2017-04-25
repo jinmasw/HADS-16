@@ -10,3 +10,6 @@ C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\
 C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto-HADS.xml
 C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto-HADS.pdb
 C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto-HADS.vbprojResolveAssemblyReference.cache
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\AjaxControlToolkit.dll
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\proyecto-HADS.XmlSerializers.dll
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Release\proyecto-HADS.XmlSerializers.dll

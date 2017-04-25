@@ -87,6 +87,22 @@ Control Label1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:proyecto_HADS.WebForm11.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm11.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:proyecto_HADS.WebForm11.Label2">
 	<summary>
 Control Label2.
@@ -114,6 +130,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:proyecto_HADS.WebForm11.RegularExpressionValidator1">
 	<summary>
 Control RegularExpressionValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm11.noMatriculado">
+	<summary>
+Control noMatriculado.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -343,6 +367,26 @@ Control Label1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="M:proyecto_HADS.matriculas.Matriculas.#ctor">
+	<remarks/>
+</member><member name="E:proyecto_HADS.matriculas.Matriculas.comprobarCompleted">
+	<remarks/>
+</member><member name="M:proyecto_HADS.matriculas.Matriculas.comprobar(System.String)">
+	<remarks/>
+</member><member name="M:proyecto_HADS.matriculas.Matriculas.comprobarAsync(System.String)">
+	<remarks/>
+</member><member name="M:proyecto_HADS.matriculas.Matriculas.comprobarAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:proyecto_HADS.matriculas.Matriculas.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:proyecto_HADS.matriculas.Matriculas">
+	<remarks/>
+</member><member name="T:proyecto_HADS.matriculas.comprobarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:proyecto_HADS.matriculas.comprobarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:proyecto_HADS.matriculas.comprobarCompletedEventArgs">
+	<remarks/>
 </member><member name="F:proyecto_HADS.WebForm33.form1">
 	<summary>
 Control form1.
@@ -471,9 +515,109 @@ Control Button1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="M:proyecto_HADS.coordinador.coordinador.#ctor">
+	<remarks/>
+</member><member name="E:proyecto_HADS.coordinador.coordinador.MediaAlumnosCompleted">
+	<remarks/>
+</member><member name="M:proyecto_HADS.coordinador.coordinador.MediaAlumnos(System.String)">
+	<remarks/>
+</member><member name="M:proyecto_HADS.coordinador.coordinador.MediaAlumnosAsync(System.String)">
+	<remarks/>
+</member><member name="M:proyecto_HADS.coordinador.coordinador.MediaAlumnosAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:proyecto_HADS.coordinador.coordinador.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:proyecto_HADS.coordinador.coordinador">
+	<remarks/>
+</member><member name="T:proyecto_HADS.coordinador.MediaAlumnosCompletedEventHandler">
+	<remarks/>
+</member><member name="P:proyecto_HADS.coordinador.MediaAlumnosCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:proyecto_HADS.coordinador.MediaAlumnosCompletedEventArgs">
+	<remarks/>
 </member><member name="F:proyecto_HADS.Alumno.form1">
 	<summary>
 Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.Logout">
+	<summary>
+Control Logout.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.Timer1">
+	<summary>
+Control Timer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.LabelProfes">
+	<summary>
+Control LabelProfes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.lprofes">
+	<summary>
+Control lprofes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.lprofes_DragPanelExtender1">
+	<summary>
+Control lprofes_DragPanelExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.LabelAlumnos">
+	<summary>
+Control LabelAlumnos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.lalumnos">
+	<summary>
+Control lalumnos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.Alumno.lalumnos_DragPanelExtender1">
+	<summary>
+Control lalumnos_DragPanelExtender1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -503,9 +647,73 @@ Control gv1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:proyecto_HADS.WebForm5.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm5.UpdatePanel2">
+	<summary>
+Control UpdatePanel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm5.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm5.DropDownList2">
+	<summary>
+Control DropDownList2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm5.DDLCodigos">
+	<summary>
+Control DDLCodigos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm5.GridView2">
+	<summary>
+Control GridView2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm5.GVTareas">
+	<summary>
+Control GVTareas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:proyecto_HADS.profesor.form1">
 	<summary>
 Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.Logout">
+	<summary>
+Control Logout.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -522,6 +730,86 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:proyecto_HADS.profesor.HyperLink2">
 	<summary>
 Control HyperLink2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.HyperLink3">
+	<summary>
+Control HyperLink3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.Timer1">
+	<summary>
+Control Timer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.LabelProfes">
+	<summary>
+Control LabelProfes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.lprofes">
+	<summary>
+Control lprofes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.lprofes_DragPanelExtender0">
+	<summary>
+Control lprofes_DragPanelExtender0.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.LabelAlumnos">
+	<summary>
+Control LabelAlumnos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.lalumnos">
+	<summary>
+Control lalumnos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.profesor.lalumnos_DragPanelExtender0">
+	<summary>
+Control lalumnos_DragPanelExtender0.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -626,6 +914,62 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:proyecto_HADS.WebForm1.gv1">
 	<summary>
 Control gv1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm6.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm6.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm6.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm6.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm6.DropDownList1">
+	<summary>
+Control DropDownList1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm6.horas">
+	<summary>
+Control horas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:proyecto_HADS.WebForm6.horasText">
+	<summary>
+Control horasText.
 </summary>
 	<remarks>
 Campo generado automáticamente.

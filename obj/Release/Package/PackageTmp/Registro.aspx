@@ -13,19 +13,24 @@
     
         <asp:Label ID="Label1" runat="server" Text="Registro"></asp:Label>
     
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+    
     </div>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <asp:Label ID="Label2" runat="server" Text="Correo"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="CorreoBox" runat="server" AutoPostBack="True" style="margin-top: 0px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="CorreoBox" ErrorMessage="Campo requerido" ValidationGroup="1"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="CorreoBox" ErrorMessage="El email introducido no es válido" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ValidationGroup="1"></asp:RegularExpressionValidator>
+                <asp:Label ID="noMatriculado" runat="server" Text="El email introducido no está matriculado" Visible="False"></asp:Label>
+
         <br />
-        <br />
-        <asp:Label ID="Label2" runat="server" Text="Correo"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="CorreoBox" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="CorreoBox" ErrorMessage="Campo requerido" ValidationGroup="1"></asp:RequiredFieldValidator>
-        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="CorreoBox" ErrorMessage="El email introducido no es válido" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ValidationGroup="1"></asp:RegularExpressionValidator>
-        <br />
-        <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
         <asp:Label ID="Label3" runat="server" Text="Nombre"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="NombreBox" runat="server"></asp:TextBox>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="NombreBox" runat="server" Width="118px"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="NombreBox" ErrorMessage="Campo requerido" ValidationGroup="1"></asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="NombreBox" ErrorMessage="El nombre introducido debe empezar por mayuscula" ValidationExpression="^[A-Z]+[a-z]*$" ValidationGroup="1"></asp:RegularExpressionValidator>
         <br />
@@ -69,8 +74,10 @@
         <br />
         <br />
         <br />
-        <asp:Button ID="RegistrarButton" runat="server" Text="Registrar" ValidationGroup="1" style="height: 29px" />
+        <asp:Button ID="RegistrarButton" runat="server" Text="Registrar" ValidationGroup="1" style="height: 29px" Enabled="False" ViewStateMode="Enabled" />
         <br />
+        </ContentTemplate>
+        </asp:UpdatePanel>
         <p>
             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Inicio.aspx">Volver</asp:HyperLink>
         </p>

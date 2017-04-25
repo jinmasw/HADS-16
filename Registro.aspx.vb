@@ -84,6 +84,26 @@ Public Class WebForm11
 
     End Function
 
+    Public Function comprobar(E As String) As String
 
+        Dim func As New matriculas.Matriculas
+        Dim s = func.comprobar(E)
+        Return s
 
+    End Function
+
+    Protected Sub CorreoBox_TextChanged(sender As Object, e As EventArgs) Handles CorreoBox.TextChanged
+
+        If comprobar(CorreoBox.Text) = "NO" Then
+
+            noMatriculado.Visible = True
+            RegistrarButton.Enabled = False
+        Else
+
+            noMatriculado.Visible = False
+            RegistrarButton.Enabled = True
+
+        End If
+
+    End Sub
 End Class

@@ -20,5 +20,6 @@ C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\
 C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Debug\proyecto-HADS.dll
 C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Debug\proyecto-HADS.xml
 C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Debug\proyecto-HADS.pdb
-C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\AccesoBD.dll
 C:\Users\imago\OneDrive\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\obj\Debug\proyecto-HADS.vbprojResolveAssemblyReference.cache
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\AccesoBD.dll
+C:\Users\Wbaz\Documents\Visual Studio 2012\Projects\proyecto-HADS\proyecto-HADS\bin\AjaxControlToolkit.dll
