@@ -2,7 +2,15 @@
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Session("username") = "vadillo@ehu.es" Then
 
+            HyperLink3.Visible = True
+
+        Else
+
+            HyperLink3.Visible = False
+
+        End If
     End Sub
 
     Protected Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick

@@ -50,6 +50,15 @@ Partial Public Class profesor
     Protected WithEvents HyperLink2 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
+    '''Control HyperLink3.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents HyperLink3 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
     '''Control ScriptManager1.
     '''</summary>
     '''<remarks>

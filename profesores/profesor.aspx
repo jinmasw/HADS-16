@@ -22,6 +22,8 @@
         <br />
         
         <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="ExportarTareas.aspx">Exportar Tareas</asp:HyperLink>
+        <br />
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/profesores/Coordinador.aspx" Visible="False">Medias de dedicación</asp:HyperLink>
     </div>
 
         <br />
